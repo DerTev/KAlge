@@ -10,7 +10,7 @@ fun main() {
     println("|  '  /     /  ^  \\    |  |     |  |  __  |  |__   ")
     println("|    <     /  /_\\  \\   |  |     |  | |_ | |   __|")
     println("|  .  \\   /  _____  \\  |  `----.|  |__| | |  |____")
-    println("|__|\\__\\ /__/     \\__\\ |_______| \\______| |_______|")
+    println("|__|\\__\\ /__/     \\__\\ |_______| \\______| |_______|   By DerTev")
     println("")
     println("")
     println("Commands: alge, megaalge, color")
