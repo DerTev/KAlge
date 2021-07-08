@@ -12,9 +12,7 @@ fun main() {
             "alge" -> println(alge.random())
             "color" -> println(color.random())
             "megaalge" -> println(megaalge.random())
-            else -> {
-                println("Command not found! \nCommands: alge, megaalge, color")
-            }
+            else -> println("Command not found! \nCommands: alge, megaalge, color")
         }
     }
 }
