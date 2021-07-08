@@ -5,6 +5,14 @@ val megaalge: Array<String> = arrayOf("Grün", "Rot", "Blau", "Gelb")
 val color: Array<String> = arrayOf("Grün", "Rot")
 
 fun main() {
+    println("__  ___      ___       __        _______  _______")
+    println("|  |/  /     /   \\     |  |      /  _____||   ____|")
+    println("|  '  /     /  ^  \\    |  |     |  |  __  |  |__   ")
+    println("|    <     /  /_\\  \\   |  |     |  | |_ | |   __|")
+    println("|  .  \\   /  _____  \\  |  `----.|  |__| | |  |____")
+    println("|__|\\__\\ /__/     \\__\\ |_______| \\______| |_______|")
+    println("")
+    println("")
     println("Commands: alge, megaalge, color")
     while (true) {
         val input: String = readLine().toString()
