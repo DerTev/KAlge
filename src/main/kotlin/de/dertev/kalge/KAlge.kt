@@ -18,14 +18,14 @@ fun main() {
     }
 }
 
-fun randomAlge(): String {
+fun randomAlge(): String { /* generates a random alge from 2 to 6 */
     return arrayOf("Alge 2", "Alge 3", "Alge 4", "Alge 5", "Alge 6").random()
 }
 
-fun randomColor(): String {
+fun randomColor(): String { /* generates a random color (green, red) */
     return arrayOf("Grün", "Rot").random()
 }
 
-fun randomMegaAlge(): String {
+fun randomMegaAlge(): String { /* generates a random color (green, red, blue, yellow) */
     return arrayOf("Grün", "Rot", "Blau", "Gelb").random()
 }
