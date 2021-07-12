@@ -10,14 +10,11 @@ fun main() {
     println("")
     println("")
     println("Commands: alge, megaalge, color")
-    while (true) {
-        val input: String = readLine().toString()
-        when(input) {
-            "alge" -> println(randomAlge())
-            "color" -> println(randomColor())
-            "megaalge" -> println(randomMegaAlge())
-            else -> println("Command not found! \nCommands: alge, megaalge, color")
-        }
+    when(readLine()) {
+        "alge" -> println(randomAlge())
+        "color" -> println(randomColor())
+        "megaalge" -> println(randomMegaAlge())
+        else -> println("Command not found! \nCommands: alge, megaalge, color")
     }
 }
 
